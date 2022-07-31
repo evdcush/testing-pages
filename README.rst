@@ -3,9 +3,13 @@ GH Pages Sandbox
 ################
 Playing around with GH pages and SSGs 
 
+SETUP
+#####
 
+
+============
 Jupyter Book
-############
+============
 
 Setup
 =====
@@ -29,4 +33,4 @@ It will now create a dir ``jupybook``, with the following contents::
     ├── requirements.txt
     └── _toc.yml
 
-**The essential/required pieces are: ``_toc.yml`` and ``_config.yml``.**
+**The essential/required pieces are:** ``_toc.yml`` and ``_config.yml``.
