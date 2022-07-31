@@ -3,6 +3,10 @@ GH Pages Sandbox
 ################
 Playing around with GH pages and SSGs 
 
+.. contents::
+.. section-numbering::
+
+
 SETUP
 #####
 
@@ -11,12 +15,12 @@ SETUP
 Jupyter Book
 ============
 
-Setup
-=====
+Initialization
+==============
 Reference: https://jupyterbook.org/en/stable/start/overview.html
 
-1. Creation
------------
+Creation
+--------
 Run ``jupyter-book jupybook``.
 
 It will now create a dir ``jupybook``, with the following contents::
