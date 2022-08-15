@@ -7,20 +7,16 @@ Playing around with GH pages and SSGs
 .. section-numbering::
 
 
-SETUP
-#####
-
-
-============
 Jupyter Book
-============
+############
 
-Initialization
-==============
+=====
+Setup
+=====
 Reference: https://jupyterbook.org/en/stable/start/overview.html
 
-Creation
---------
+Initialize
+==========
 Run ``jupyter-book jupybook``.
 
 It will now create a dir ``jupybook``, with the following contents::
