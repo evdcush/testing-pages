@@ -8,3 +8,8 @@ chapters:
 - file: notebooks
 - file: markdown-notebooks
 - file: mymarkdownfile
+#- file: Python/static
+- glob: Python/*
+
+
+# REFERENCE: https://github.com/executablebooks/jupyter-book/blob/master/docs/_toc.yml

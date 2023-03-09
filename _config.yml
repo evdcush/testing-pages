@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
+title: Nota
+author: Evan C.
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -21,9 +21,8 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  #url: https://github.com/executablebooks/jupyter-book  # Online location of your book
   url: https://github.com/evdcush/testing-pages  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
+  path_to_book: '' # docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
@@ -31,3 +30,13 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+#
+
+# WHAT: Excludes files from build that are not referenced in the toc.
+# WHY:
+#   - Otherwise, build fails with:
+#    `WARNING: document isn't included in any toctree`
+#   - Because I don't want an arbitrary `docs/` dir to hold docs
+#     - I prefer keeping things flat and at root for fewer clicks
+only_build_toc_files: true
