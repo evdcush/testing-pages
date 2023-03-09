@@ -3,13 +3,17 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: mymarkdownfile
-#- file: Python/static
-- glob: Python/*
+parts:
+  - caption: Reference Sample Book
+    chapters:
+    - file: markdown
+    - file: notebooks
+    - file: markdown-notebooks
+    - file: mymarkdownfile
+
+  - caption: Python
+    chapters:
+      - glob: Python/*
 
 
 # REFERENCE: https://github.com/executablebooks/jupyter-book/blob/master/docs/_toc.yml
